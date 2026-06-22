@@ -1,7 +1,7 @@
 import axios, { AxiosError } from "axios"
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api/v1",
+  baseURL: "https://proposely-backend.vercel.app/api/v1",
 })
 
 const PUBLIC_ENDPOINTS = ["/auth/login", "/auth/register"]
